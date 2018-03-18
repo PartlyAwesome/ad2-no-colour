@@ -1,4 +1,9 @@
+/* actually full */
 .force-wide-design #wrapper {
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
+
+/* FULL of fixes */
+.force-wide-design .user-card{left: -28px;}
+.force-wide-design .user-card .user-card-header{padding-left: 28px !important;}

@@ -43,7 +43,12 @@ html body {
 
 /* button on-hover grey */
 .button.is-primary:hover {
-    background: #aaa;
+    background-color: #aaa;
+}
+
+/* button disabled grey */
+.button.is-primary[disabled] {
+	background-color: #222;
 }
 
 /* username dropdown grey while active */

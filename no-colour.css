@@ -45,3 +45,8 @@ html body {
 .button.is-primary:hover {
     background: #aaa;
 }
+
+/* username dropdown grey while active */
+.dropdown.is-active .dropdown-trigger .navbar-item {
+	background-color: #aaa !important;
+}

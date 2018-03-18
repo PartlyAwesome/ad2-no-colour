@@ -6,7 +6,7 @@ Modifies AD2 for less (to no) colour
 Add the theme to your user CSS on the preferences page:
 
 ```
-@import url(coming soon UwU);
+@import url(//git.io/vxOHC);
 ```
 
 ## Customizing

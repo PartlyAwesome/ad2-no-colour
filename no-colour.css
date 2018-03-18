@@ -34,6 +34,7 @@ html body {
     background: var(--darker) !important;
 }
 
-.facepunch_logo .outer {
+/* grey footer logo */
+.footer .facepunch_logo .outer {
     fill: #414141;
 }

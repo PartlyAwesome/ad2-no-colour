@@ -1,0 +1,35 @@
+/* ad2 root colours change */
+:root {
+    --thread-bg-sticky: #212121;
+    --thread-bg-sticky2: #353535;
+}
+
+/* switch colour change */
+.switch input[type="checkbox"] + .check::before {
+    background: #414141;
+}
+
+/* logo greyifier */
+.logo {
+    filter: grayscale(100%);
+}
+
+/* navbar greyifier */
+.navbar-item img {
+    filter: grayscale(100%);
+}
+
+/* forumicon greyifier */
+.forumicon img {
+    filter: grayscale(100%);
+}
+
+/* threadicon greyifier */
+.threadicon img {
+    filter: grayscale(100%);
+}
+
+/* dark background */
+html body {
+    background: var(--darker) !important;
+}

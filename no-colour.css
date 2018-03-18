@@ -40,3 +40,8 @@ html body {
 .footer .facepunch_logo .outer {
     fill: #aaa;
 }
+
+/* button on-hover grey */
+.button.is-primary:hover {
+    background: #aaa;
+}

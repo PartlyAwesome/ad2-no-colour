@@ -1,5 +1,7 @@
 /* ad2 root colours change */
 :root {
+    --accent: #555;
+    --accent-text: #fff;
     --thread-bg-sticky: #212121;
     --thread-bg-sticky2: #353535;
 }

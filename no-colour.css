@@ -33,3 +33,7 @@
 html body {
     background: var(--darker) !important;
 }
+
+.facepunch_logo .outer {
+    fill: #414141;
+}

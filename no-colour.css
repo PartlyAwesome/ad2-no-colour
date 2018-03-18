@@ -60,3 +60,8 @@ html body {
 .ql-container.ql-snow .ql-editor a {
 	color: #888;
 }
+
+/* userlevel greyified */
+.userlevel {
+	filter: saturate(0%);
+}

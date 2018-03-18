@@ -32,7 +32,7 @@
 }
 
 /* dark background */
-html body {
+html::before {
     background: var(--darker) !important;
 }
 

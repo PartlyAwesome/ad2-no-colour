@@ -55,3 +55,8 @@ html body {
 .dropdown.is-active .dropdown-trigger .navbar-item {
 	background-color: #aaa !important;
 }
+
+/* change link colour because it's too dark at #555 */
+.ql-container.ql-snow .ql-editor a {
+	color: #888;
+}

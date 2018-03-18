@@ -26,6 +26,10 @@ actually-full.css | makes full width actually full width
 ```
 @import url(//git.io/vxOHR);
 ```
+no-wrapper-padding.css | removes the 160px padding at the bottom of every page
+```
+@import url(//git.io/vx3oj);
+```
 
 ## Any Complaints
 Make an issue 🤷 we'll work something out

@@ -12,7 +12,7 @@ or use this git.io
 ```
 ## Installation
 
-Add the theme to your user CSS on the preferences page:
+Add the theme to your user CSS on the preferences page AFTER THE AD2 IMPORT:
 
 ```
 @import url(//git.io/vxOHC);

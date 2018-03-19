@@ -69,3 +69,13 @@ html body {
 .userlevel {
 	filter: saturate(0%);
 }
+
+/* grey the quotes */
+postquote {
+	border-color: #777 !important;
+	background: #444 !important;
+}
+
+postquote .head {
+	background: #555 !important;
+}

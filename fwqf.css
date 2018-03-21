@@ -25,7 +25,7 @@
 .ql-editor > blockquote:first-of-type {
     box-shadow: 1px 1px #777 inset, -1px 1px #777 inset;
     margin-right: 1rem;
-    padding-top: 0.8rem;
+    /* padding-top: 0.8rem; */
 }
 
 .ql-editor > blockquote:first-of-type::before {
@@ -51,12 +51,14 @@
     padding: 0.8rem 1rem 1rem 1rem;
     box-shadow: 1px 1px #777 inset, -1px -1px #777 inset;
 }
+
 .ql-editor > blockquote:only-of-type::before {
     width: calc(100% + 2rem);
     margin-left: -1rem;
 }
+
 .ql-editor > blockquote:only-of-type::after {
-    padding-right: 0 !important;
+    /* padding-right: 0 !important; */
 }
 
 /* end better block quotes */

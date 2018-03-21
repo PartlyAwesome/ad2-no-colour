@@ -34,6 +34,11 @@ reaction-scrollbars.css | limits size of reactions list & adds scrollbars
 ```
 @import url(//git.io/vxcWI);
 ```
+## My Imports
+Full list of my imports; in case you wanted to know
+```
+https://partlyawesome.github.io/ad2-no-colour/partlyawesome.css
+```
 
 ## Any Complaints
 Make an issue 🤷 we'll work something out

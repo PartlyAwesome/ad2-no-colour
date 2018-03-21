@@ -1,23 +1,35 @@
 /* Block quotes more like post quotes */
-.ql-editor > blockquote::before {content:"" !important; display:none;}
+.ql-container.ql-snow .ql-editor blockquote::before {
+    content: "";
+    padding-right: 0;
+    display: none;
+}
+
+/*
 .ql-editor > blockquote {
     box-shadow: 1px 0px #000 inset, -1px 0px #000 inset;
-    /*background-color: rgba(44,125,189,0.2) !important;
-    */
+    background-color: rgba(44,125,189,0.2) !important;
     font-size: 0.8rem !important;
     display: block !important;
     padding-right: 1rem;
     padding-left: 1rem;
     padding-bottom: 1rem;
+}*/
+
+.ql-container.ql-snow .ql-editor blockquote {
+    border-left: 2px solid #3598e6;
+    /*background-color: #d5e5f2;
+    */
+    line-height: 1.5em;
 }
 
-.ql-editor > blockquote:first-of-type{
+.ql-editor > blockquote:first-of-type {
     box-shadow: 1px 1px #000 inset, -1px 1px #000 inset;
     margin-right:1rem;
     padding-top:0.8rem;
 }
 
-.ql-editor > blockquote:first-of-type::before{
+.ql-editor > blockquote:first-of-type::before {
     display:block;
     /*background-color: #2c7dbd !important;
     */
@@ -30,21 +42,21 @@
     width: calc(100% + 2rem);
 }
 
-.ql-editor > blockquote:last-of-type{
+.ql-editor > blockquote:last-of-type {
     box-shadow: 1px -1px #000 inset, -1px -1px #000 inset;
 }
 
 /* Small quotes can look nicer since we don't have to rely on display: table-row */
-.ql-editor > blockquote:only-of-type{
+.ql-editor > blockquote:only-of-type {
     display: table !important;
     padding: 0.8rem 1rem 1rem 1rem;
     box-shadow: 1px 1px #000 inset, -1px -1px #000 inset;
 }
-.ql-editor > blockquote:only-of-type::before{
+.ql-editor > blockquote:only-of-type::before {
     width:calc(100% + 2rem);
     margin-left:-1rem;
 }
-.ql-editor > blockquote:only-of-type::after{
+.ql-editor > blockquote:only-of-type::after {
     padding-right:0 !important;
 }
 

@@ -30,6 +30,10 @@ no-wrapper-padding.css | removes the 160px padding at the bottom of every page
 ```
 @import url(//git.io/vx3oj);
 ```
+reaction-scrollbars.css | limits size of reactions list & adds scrollbars
+```
+@import url(//git.io/vxcWI);
+```
 
 ## Any Complaints
 Make an issue 🤷 we'll work something out

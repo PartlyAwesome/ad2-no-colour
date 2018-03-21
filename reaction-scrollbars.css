@@ -1,0 +1,9 @@
+/* Adds a scrollbar to long ratings lists */
+.votes.detail .votelist .voteinfo {
+    width: 90px;
+}
+.votes.detail .votelist .votedetail {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 0 20px;
+}

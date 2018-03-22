@@ -33,12 +33,13 @@
 
 /* dark background */
 html::before {
+	content: none;
 	background-image: none !important;
     background-color: var(--darker) !important;
 }
 
 html body {
-    background: var(--darker) !important;
+    background-color: var(--darker) !important;
 }
 
 /* grey footer logo */

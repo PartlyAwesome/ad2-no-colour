@@ -1,3 +1,8 @@
 #wrapper {
     padding-bottom: 0px !important;
+    position: absolute;
+}
+
+footer {
+    position: relative;
 }

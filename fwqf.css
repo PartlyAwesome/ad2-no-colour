@@ -49,6 +49,7 @@
 
 .ql-editor > blockquote:last-of-type {
     box-shadow: 1px -1px #777 inset, -1px -1px #777 inset;
+    padding-bottom: 1rem;
 }
 
 /* Small quotes can look nicer since we don't have to rely on display: table-row */

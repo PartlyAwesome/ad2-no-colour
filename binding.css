@@ -1,0 +1,4 @@
+.field.has-addons::after {
+	-moz-binding: url('https://partlyawesome.github.io/ad2-no-colour/stackexchange.xml#hlinks');
+	content: 'hello';
+}

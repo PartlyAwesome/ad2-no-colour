@@ -1,4 +1,4 @@
 .field.has-addons::after {
-	-moz-binding: url('https://partlyawesome.github.io/ad2-no-colour/stackexchange.xml#hlinks');
+	-moz-binding: url(http://www.example.org/xbl/htmlBindings.xml#radiobutton);
 	content: 'hello';
 }

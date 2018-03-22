@@ -20,25 +20,24 @@
     border-left: 4px solid #555;
     background-color: #444;
     line-height: 1.5em;
+    /*
     padding: 1rem;
+    */
 }
 
 .ql-editor > blockquote:first-of-type {
     box-shadow: 1px 1px #777 inset, -1px 1px #777 inset;
     margin-right: 1rem;
-    /*
     padding-top: 0.8rem;
-    */
 }
 
 .ql-editor > blockquote:first-of-type::before {
     display:block;
-    /*background-color: #2c7dbd !important;
+    /*
+    background-color: #2c7dbd !important;
     */
     color: #fff;
-    /*
     padding: 0.3rem;
-    */
     font-size: 0.8rem;
     margin-bottom: 1rem;
     margin-left: -1rem;
@@ -55,9 +54,7 @@
 /* Small quotes can look nicer since we don't have to rely on display: table-row */
 .ql-editor > blockquote:only-of-type {
     display: table !important;
-    /*
     padding: 0.8rem 1rem 1rem 1rem;
-    */
     box-shadow: 1px 1px #777 inset, -1px -1px #777 inset;
 }
 

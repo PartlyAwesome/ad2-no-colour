@@ -34,6 +34,10 @@ reaction-scrollbars.css | limits size of reactions list & adds scrollbars
 ```
 @import url(//git.io/vxcWI);
 ```
+better-block-quotes.css | changes block quotes to look more like post quotes
+```
+@import url(//git.io/vxWBC);
+```
 ## My Imports
 Full list of my imports; in case you wanted to know
 ```

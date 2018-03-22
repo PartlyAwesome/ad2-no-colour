@@ -37,11 +37,9 @@ html::before {
     background-color: var(--darker) !important;
 }
 
-/*
 html body {
     background: var(--darker) !important;
 }
-*/
 
 /* grey footer logo */
 .footer .facepunch_logo .outer {

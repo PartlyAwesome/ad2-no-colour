@@ -33,11 +33,15 @@
 
 /* dark background */
 html::before {
-	content: none !important;
+    content: none !important;
 }
 
 html {
     background-color: var(--darker) !important;
+}
+
+html body {
+    background: linear-gradient(to top, rgba(51,51,51,0.6), transparent 300px);
 }
 
 /* grey footer logo */

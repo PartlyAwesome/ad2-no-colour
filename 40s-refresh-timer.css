@@ -1,5 +1,6 @@
 @import url('https://partlyawesome.github.io/ad2-no-colour/no-style-timer.css');
 
 .field.has-addons::after {
-    width: 100px;
+    width: 50px;
+    text-align: center;
 }

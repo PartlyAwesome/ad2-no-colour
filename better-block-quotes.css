@@ -5,24 +5,10 @@
     display: none;
 }
 
-/*
-.ql-editor > blockquote {
-    box-shadow: 1px 0px #000 inset, -1px 0px #000 inset;
-    background-color: rgba(44,125,189,0.2) !important;
-    font-size: 0.8rem !important;
-    display: block !important;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-}*/
-
 .ql-container.ql-snow .ql-editor blockquote {
     border-left: 4px solid #555;
     background-color: #444;
     line-height: 1.5em;
-    /*
-    padding: 1rem;
-    */
 }
 
 .ql-editor > blockquote:first-of-type {
@@ -33,18 +19,12 @@
 
 .ql-editor > blockquote:first-of-type::before {
     display:block;
-    /*
-    background-color: #2c7dbd !important;
-    */
     color: #fff;
     padding: 0.3rem;
     font-size: 0.8rem;
     margin-bottom: 1rem;
     margin-left: -1rem;
     margin-top: -0.8rem;
-    /*
-    width: calc(100% + 2rem);
-    */
 }
 
 .ql-editor > blockquote:last-of-type {
@@ -60,14 +40,5 @@
 }
 
 .ql-editor > blockquote:only-of-type::before {
-    /*
-    width: calc(100% + 2rem);
-    */
     margin-left: -1rem;
 }
-
-.ql-editor > blockquote:only-of-type::after {
-    /* padding-right: 0 !important; */
-}
-
-/* end better block quotes */

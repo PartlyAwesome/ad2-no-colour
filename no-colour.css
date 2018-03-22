@@ -33,7 +33,7 @@
 
 /* dark background */
 html::before {
-	background-image: none;
+	background-image: none !important;
     background-color: var(--darker) !important;
 }
 

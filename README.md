@@ -42,6 +42,10 @@ better-block-quotes.css | changes block quotes to look more like post quotes
 ```
 @import url(//git.io/vx8VQ);
 ```
+general-fixes.css | no features; only fixes! (see css)
+```
+@import url(//git.io/vx8wn);
+```
 ## My Imports
 Full list of my imports; in case you wanted to know
 ```

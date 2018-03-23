@@ -1,8 +1,7 @@
 /* Block quotes more like post quotes */
 .ql-container.ql-snow .ql-editor blockquote::before {
-    content: "";
+    content: none;
     padding-right: 0;
-    display: none;
 }
 
 .ql-container.ql-snow .ql-editor blockquote {
@@ -18,18 +17,13 @@
 }
 
 .ql-editor > blockquote:first-of-type::before {
-    display:block;
+    display: block;
     color: #fff;
     padding: 0.3rem;
     font-size: 0.8rem;
     margin-bottom: 1rem;
     margin-left: -1rem;
     margin-top: -0.8rem;
-}
-
-.ql-editor > blockquote:last-of-type {
-    box-shadow: 1px -1px #777 inset, -1px -1px #777 inset;
-    padding-bottom: 1rem;
 }
 
 /* Small quotes can look nicer since we don't have to rely on display: table-row */
@@ -41,4 +35,29 @@
 
 .ql-editor > blockquote:only-of-type::before {
     margin-left: -1rem;
+}
+
+.ql-editor > blockquote:last-of-type {
+	padding-bottom: 1rem;
+	border-bottom: 1px #777 solid !important;
+}
+
+p + blockquote {
+	padding-top: 0.8rem !important;
+	border-top: 1px #777 solid !important;
+}
+
+blockquote {
+	border-right: 1px #777 solid !important;
+	padding-right: 1rem !important;
+}
+
+blockquote + p::before {
+	background: #444;
+	height: 1rem;
+	content: ' ';
+	display: block;
+	border-left: 4px solid #555;
+	border-right: 1px #777 solid;
+	border-bottom: 1px #777 solid;
 }

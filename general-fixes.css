@@ -1,0 +1,6 @@
+/* general fixes */
+
+/* stop overflow via emotes */
+.ql-editor {
+    overflow-y: visible;
+}

@@ -52,17 +52,7 @@ blockquote {
 	padding-right: 1rem !important;
 }
 
-blockquote:not(:only-of-type) + p::before {
-	background: #444;
-	height: 1rem;
-	content: ' ';
-	display: block;
-	border-left: 4px solid #555;
-	border-right: 1px #777 solid;
-	border-bottom: 1px #777 solid;
-}
-
-blockquote:not(:last-of-type) + p::before {
+blockquote:not(:only-of-type) + p::before, blockquote:not(:last-of-type) + p::before {
 	background: #444;
 	height: 1rem;
 	content: ' ';

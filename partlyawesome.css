@@ -36,5 +36,8 @@
 /* 40s-refresh-timer.css */
 @import url('https://partlyawesome.github.io/ad2-no-colour/40s-refresh-timer.css');
 
+/* general-fixes.css */
+@import url('https://partlyawesome.github.io/ad2-no-colour/general-fixes.css');
+
 /* Facepunch Mobile Fix */
 @import url('https://diwako.github.io/fpcss/mobile.css');

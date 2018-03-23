@@ -4,3 +4,8 @@
 .ql-editor {
     overflow-y: visible;
 }
+
+/* increase twitter iframe height - might get increased later */
+.ec_iframely_root .ec_iframely .iframely-embed {
+	max-height: 900px;
+}

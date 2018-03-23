@@ -52,7 +52,7 @@ blockquote {
 	padding-right: 1rem !important;
 }
 
-blockquote:not(:only-of-type) + p::before, blockquote:not(:last-of-type) + p::before {
+blockquote:not(:only-of-type):not(:last-of-type) + p::before {
 	background: #444;
 	height: 1rem;
 	content: ' ';

@@ -11,7 +11,7 @@
 }
 
 .ql-editor > blockquote:first-of-type {
-    box-shadow: 1px 1px #777 inset, -1px 1px #777 inset;
+    border-top: 1px #777 solid !important;
     margin-right: 1rem;
     padding-top: 0.8rem;
 }
@@ -30,7 +30,6 @@
 .ql-editor > blockquote:only-of-type {
     display: table !important;
     padding: 0.8rem 1rem 1rem 1rem;
-    box-shadow: 1px 1px #777 inset, -1px -1px #777 inset;
 }
 
 .ql-editor > blockquote:only-of-type::before {
@@ -38,26 +37,26 @@
 }
 
 .ql-editor > blockquote:last-of-type {
-	padding-bottom: 1rem;
-	border-bottom: 1px #777 solid !important;
+    padding-bottom: 1rem;
+    border-bottom: 1px #777 solid !important;
 }
 
 p + blockquote {
-	padding-top: 0.8rem !important;
-	border-top: 1px #777 solid !important;
+    padding-top: 0.8rem !important;
+    border-top: 1px #777 solid !important;
 }
 
 blockquote {
-	border-right: 1px #777 solid !important;
-	padding-right: 1rem !important;
+    border-right: 1px #777 solid !important;
+    padding-right: 1rem !important;
 }
 
 blockquote:not(:only-of-type):not(:last-of-type) + p::before {
-	background: #444;
-	height: 1rem;
-	content: ' ';
-	display: block;
-	border-left: 4px solid #555;
-	border-right: 1px #777 solid;
-	border-bottom: 1px #777 solid;
+    background: #444;
+    height: 1rem;
+    content: ' ';
+    display: block;
+    border-left: 4px solid #555;
+    border-right: 1px #777 solid;
+    border-bottom: 1px #777 solid;
 }

@@ -40,9 +40,14 @@ html {
     background-color: var(--darker) !important;
 }
 
-/* restore gradient */
+/* restore gradient on reggo pages */
 #wrapper {
     background: linear-gradient(to top, rgba(51,51,51,0.6), transparent 300px);
+}
+
+/* remove duplicate gradient on effected pages */
+html body {
+    background: none;
 }
 
 /* grey footer logo */
@@ -57,30 +62,30 @@ html {
 
 /* button disabled grey */
 .button.is-primary[disabled] {
-	background-color: #222;
+    background-color: #222;
 }
 
 /* username dropdown grey while active */
 .dropdown.is-active .dropdown-trigger .navbar-item {
-	background-color: #aaa !important;
+    background-color: #aaa !important;
 }
 
 /* change link colour because it's too dark at #555 */
 .ql-container.ql-snow .ql-editor a {
-	color: #888;
+    color: #888;
 }
 
 /* userlevel greyified */
 .userlevel {
-	filter: saturate(0%);
+    filter: saturate(0%);
 }
 
 /* grey the quotes */
 postquote {
-	border-color: #777 !important;
-	background: #444 !important;
+    border-color: #777 !important;
+    background: #444 !important;
 }
 
 postquote .head {
-	background: #555 !important;
+    background: #555 !important;
 }

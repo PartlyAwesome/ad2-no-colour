@@ -38,6 +38,10 @@ better-block-quotes.css | changes block quotes to look more like post quotes
 ```
 @import url(//git.io/vxWBC);
 ```
+40s-refresh-timer.css | adds a 40 seconds refresh timer to every page to remind you when to refresh
+```
+@import url(//git.io/vx8VQ);
+```
 ## My Imports
 Full list of my imports; in case you wanted to know
 ```

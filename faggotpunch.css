@@ -6,6 +6,10 @@ html::before {
     animation: faggot 5s linear infinite;
 }
 
+*:not(html::before) {
+    animation: faggot 3s linear infinite;
+}
+
 @keyframes faggot {
     0% { filter: hue-rotate(0); }
     100% { filter: hue-rotate(360deg); }

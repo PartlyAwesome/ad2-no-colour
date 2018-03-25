@@ -18,4 +18,5 @@ html::before {
 
 #header .navbar-main.navbar.is-dark .navbar-brand .navbar-item.logo {
     background-image: url(https://files.facepunch.com/forum/upload/237007/348837b5-4c91-4b6d-bd0d-f5ba0cf5c5e1/Seymour_Skinner.png);
+    background-size: cover;
 }

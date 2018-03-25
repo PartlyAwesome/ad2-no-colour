@@ -1,0 +1,17 @@
+html::before {
+    background-image: url(https://files.facepunch.com/forum/upload/237007/81e2a4f3-8043-4021-93a1-324e05ca66df/sh.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.force-wide-design #wrapper {
+    width: 1330px;
+    max-width: 1330px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#wrapper {
+    width: 1330px;
+    max-width: 1330px;
+}

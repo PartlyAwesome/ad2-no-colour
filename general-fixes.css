@@ -14,3 +14,8 @@
 .ql-editor > * {
     cursor: auto !important;
 }
+
+/* fix video player for firefox; shouldn't effect other browsers */
+video {
+    white-space: initial;
+}

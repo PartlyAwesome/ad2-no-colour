@@ -41,7 +41,7 @@
     border-bottom: 1px #777 solid !important;
 }
 
-p + blockquote {
+:not(blockquote) + blockquote {
     padding-top: 0.8rem !important;
     border-top: 1px #777 solid !important;
 }
@@ -51,7 +51,7 @@ blockquote {
     padding-right: 1rem !important;
 }
 
-blockquote:not(:only-of-type):not(:last-of-type) + p::before {
+blockquote:not(:only-of-type):not(:last-of-type) + :not(blockquote)::before {
     background: #444;
     height: 1rem;
     content: ' ';

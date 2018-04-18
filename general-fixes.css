@@ -19,3 +19,8 @@
 video {
     white-space: initial;
 }
+
+/* fixes titles not breaking words in two, possibly firefox exclusive */
+.title, .subtitle {
+	word-break: normal;
+}
